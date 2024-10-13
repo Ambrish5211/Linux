@@ -1,0 +1,35 @@
+- Here, directories are seperated by forward slashes, like user/ambrish/:~
+
+Command List
+ 
+ 1. man - It gives detail about any command. Eg. man ls
+ 2. ls - List all files and folders at that directory
+     ~~ ls -l = will show long form, more details 
+     ~~ ls -a = show all files and folders, including hidden ones
+     ~~ we can use ls -la  command which is nothing but ls -a -l
+
+ProTip = We can hide any file or folder in linux file system by preappending . to It
+         e.g - .this_is_hidden_file
+
+ 3. pwd - shows present working directory
+ 4. cd - change directory
+     ~~ cd ~ = shortcut for home directory
+     Tab completion = Type just 1-2 words of the directory you want to switch and press tab, it will show all directories available with that preciding name.
+ 5. mkdir - make directory
+     ~~ How do we make a folder with space in between its word, like my cool folder
+        Two ways:- 1. using quotes like, mkdir "my cool folder"
+                   2. using escape character \ like, mkdir my\ cool\ folder   (Remember \ means it will ignore character next to it and take it as part of naming convention).
+ 6. history - it will show history of commands used
+     ~~ We can use CRTL + r to search in history
+ 7. clear - it will clear the shell screen
+ 8. cp - used to copy file or folders, for copying any file or folder we need to first go in the directory where that file or folder is present and then use command there, like for example, cp this_is_file.txt /Desktop
+     ~~ Note that alone cp won't copy the contents of the file or folder, we need to use command, 
+        cp -r source_destination target_destination 
+        WILDCARDS - wildcards means selecting all the items with that extension, it is used by using the * sign 
+                    E.G. cp *.png /Desktop
+ 9. mv - it is multipurpose command, it can be used to rename the file or folder or move the file and folder.
+     ~~ mv source_destination target_destination or mv current_name renamed_name
+ 10. rm - it is used to delete file or directories if the current user has the appropriate permissions
+      ~~ rm -r folder_name = to delete folder along with its contents
+      ~~ rm filename -force to force delete that file
+        
