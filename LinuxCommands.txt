@@ -32,4 +32,9 @@ ProTip = We can hide any file or folder in linux file system by preappending . t
  10. rm - it is used to delete file or directories if the current user has the appropriate permissions
       ~~ rm -r folder_name = to delete folder along with its contents
       ~~ rm filename -force to force delete that file
+ 11. cat - to view content of the file
+     ~~ cat my_file.txt
+     ~~ use less command for large files, less my_file.txt, Less also allows you to search for a word in the file using /word_to_search 
+     ~~ head - shows first 10 line of a file'
+     ~~ tail - shows last 10 line of the file
         
