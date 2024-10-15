@@ -37,4 +37,6 @@ ProTip = We can hide any file or folder in linux file system by preappending . t
      ~~ use less command for large files, less my_file.txt, Less also allows you to search for a word in the file using /word_to_search 
      ~~ head - shows first 10 line of a file'
      ~~ tail - shows last 10 line of the file
+ 12. grep -  to search certain word inside a file.
+     ~~ grep iostream hello.c++
         
